@@ -1,2 +1,2 @@
-# ASP.NET-MVC
-This is a sample OWIN application which uses WS-Federation middleware components.
+# ASP.NET MVC
+This repository contains sample ASP.NET MVC projects explaining various topics.
