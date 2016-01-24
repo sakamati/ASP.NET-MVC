@@ -14,5 +14,10 @@ namespace SemanticLoggingSample
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
+
+        protected void Application_Error()
+        {
+            var error = this.Context.Server.GetLastError();
+        }
     }
 }

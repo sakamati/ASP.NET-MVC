@@ -10,6 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticLogging.Logging", "SemanticLogging.Logging\SemanticLogging.Logging.csproj", "{E9CFBF5A-1425-47C1-8498-3E80065D7C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{650CB3EB-1590-4416-A835-1E6280F2EEB4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +27,10 @@ Global
 		{46A61F6A-018D-4CCE-A907-4185AA6F6878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46A61F6A-018D-4CCE-A907-4185AA6F6878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46A61F6A-018D-4CCE-A907-4185AA6F6878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9CFBF5A-1425-47C1-8498-3E80065D7C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9CFBF5A-1425-47C1-8498-3E80065D7C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9CFBF5A-1425-47C1-8498-3E80065D7C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9CFBF5A-1425-47C1-8498-3E80065D7C8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
